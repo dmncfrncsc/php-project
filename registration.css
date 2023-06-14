@@ -1,0 +1,116 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    background-image: url(img/wanshuinnsunseteditedblurred.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}  
+
+.login-container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+.login-box{
+    height: 90vh;
+    width: 150vh;
+    background-color: rgb(255, 255, 255);
+    margin-left:30vh;
+    margin-top: 5vh;
+    position: absolute;
+    border-radius: 30px;
+    font-family: 'Candara';
+}
+.left{
+    float: right;
+    margin-top: 2vh;
+    width: 45%;
+
+}
+.img-login{
+    width: 25vh;
+    margin-top: 2vh;
+    margin-left: 19vh
+}
+span{
+    font-size: 3.5vh;
+  
+}
+.form{
+    margin-left:5vh;
+}
+input{
+    margin-top: 1%;
+    margin-bottom: 2.5vh;
+    border:none;
+    border-bottom: 2px solid black;
+    width: 90%;
+    font-size: 2.5vh;
+    text-decoration: none;
+    padding-left: 1vh;
+    outline: none;
+}
+h1{
+    text-align: center;
+    font-size: 6vh;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    height: 5vh;
+    font-size: 3vh;
+    width: 100%;
+    font-family: 'Candara';
+}
+
+.subtext{
+    margin-top: 0.5vh;
+    font-size: 2.5vh;
+    margin-left: 10vh;
+}
+a{
+    color: blue;
+}
+
+
+.image{
+    margin-top: 1.2vw;
+    width: 55%;
+    height: 85vh;
+    object-fit: cover;
+    float: left;
+    margin-left:-1.3vw;
+    border-radius: 30px;
+
+}
+
+.cancel{
+
+    color: white;
+    border: none;
+   
+    text-decoration: none;
+}
+.cancelText{
+    background-color: black;
+    padding-top: 0.8vh;
+    padding-bottom: 0.8vh;
+    padding-left: 11.5vh;
+    padding-right: 11.5vh;
+    font-size: 3vh;
+    border-radius: 17px;
+    font-family: 'Candara';
+}
+
+

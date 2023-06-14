@@ -1,0 +1,225 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    background-image: url(img/wanshuinnsunsetedited.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+*{
+    
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+  
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgb(0, 42, 48);
+    width: 100%;
+    height: 77px;
+    z-index: 1;
+    color: white;
+    font-family: 'Segoe UI';
+    padding-left: 5vw;
+    letter-spacing: 0.2vw;
+    font-weight: 1;
+    
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+  
+    margin-left: 15vw;
+}
+.logo{
+    letter-spacing: 0.5vw;
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Vermin Vibes V';
+}
+.logoNav{
+    width: 4.2vw;
+    
+}
+.logo, .home, .reservations, .accounts, .rooms{
+
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+
+a:hover{
+    background: -webkit-linear-gradient(rgb(255,251,189), rgb(188,160,117));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+.table-button{
+    padding-top: 2vh;
+}
+.btnAdd,.btnUpdate,.btnDelete{
+    width: 99%;
+    border-radius: 25px;
+    height: 5vh;
+    font-size: 3vh;
+
+}
+.btnAdd{
+    background-color: rgb(190, 252, 188);
+}
+.btnUpdate{
+    background-color: rgb(238, 252, 188);
+}
+.btnDelete{
+    background-color: rgb(252, 188, 188);
+}
+.input{
+    width: 95%;
+    border-radius: 25px;
+    height: 4vh;
+    padding-left: 2%;
+    
+}
+.userLevel{
+    width: 32%;
+    border-radius: 25px;
+    height: 4vh;
+}
+.roomclass{
+    width: 99%;
+    border-radius: 25px;
+    height: 4vh;
+}
+#address{
+    width: 97.5%;
+}
+
+.table-data2{
+    padding-top: 2vh;
+}
+.table-data3{
+    padding-top: 2vh;
+    text-align: center;
+}
+
+
+.reservation-form{
+    margin: auto;
+    margin-top: 2vh;
+    width: 120vh;
+    table-layout: fixed ;
+    
+}
+.subtext{
+    color: white;
+    font-family: 'Candara';
+    font-size: 3vh;
+    
+}
+.subtext1{
+    color: white;
+    font-family: 'Candara';
+    font-size: 3vh;
+    
+}
+.table_info{
+    color: white;
+    border-collapse: collapse;
+    font-family: 'Candara';
+    width: 180vh;
+    margin: auto;
+     table-layout: fixed ;
+ 
+}
+
+th{
+    text-transform: uppercase;
+}
+.reservation-area{
+    border-top: 10px solid rgb(228, 221, 130);
+    position: absolute;
+    width: 100%;
+    height: 55vh;
+    background-color:rgb(0, 35, 44);
+    padding-top: 2vw;
+    
+}
+.header-area{
+    height: 40vh;
+}
+.fade-header{
+    height: 25vh;
+    padding-top: 20vh;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+.booking-title{
+    font-family: 'Friz Quadrata Std';
+    font-size: 7vw;
+    margin-left: 10vh;
+    letter-spacing: 1.5vw;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(rgb(255,251,189), rgb(188,160,117));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-area{
+    position: static;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.178);
+  }
+  
+  .front_image{
+      display: block;
+     margin-left: auto;
+     margin-right: auto;
+  
+     justify-content: center;
+      width:40%;
+    padding-bottom: 10vh;
+      
+  }
+  .banner-greet{
+      
+      display: block;
+     margin-left: auto;
+     margin-right: auto;
+      padding-top: 5vw;
+     width: fit-content;
+
+
+    
+     font-family: 'Vermin Vibes V';
+  
+      letter-spacing: 0.5vw;
+      font-size: 8vw;
+     color: white;
+      font-weight: lighter;
+    
+  }
+
+.roomtype, .status{
+    width: 98%;
+    border-radius: 25px;
+    height: 4vh;
+    padding-left: 2%
+}
+

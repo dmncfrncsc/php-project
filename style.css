@@ -1,0 +1,535 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    background-image: url(img/wanshuinnsunseteditedblurred.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}   
+*{
+    
+    margin:0;
+    padding:0;
+ 
+}
+.navbar{
+    position: fixed;
+    display: flex;
+  
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgb(0, 42, 48);
+    width: 100%;
+    height: 77px;
+    z-index: 1;
+    color: white;
+    font-family: 'Segoe UI';
+    padding-left: 5vw;
+    letter-spacing: 0.2vw;
+    font-weight: 1;
+    
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+  
+    margin-left: 15vw;
+}
+.logo{
+    letter-spacing: 0.5vw;
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Vermin Vibes V';
+}
+.logoNav{
+    width: 4.2vw;
+    
+}
+.logo, .home, .about, .rooms, .booking, .login{
+
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+
+a:hover{
+    background: -webkit-linear-gradient(rgb(255,251,189), rgb(188,160,117));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+.banner-area{
+  position: static;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.178);
+}
+.front_image{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+   justify-content: center;
+    width:40%;
+    padding-top: 9%;
+    
+}
+.banner-greet{
+    
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+    padding-top: 3vw;
+   width: fit-content;
+   padding-bottom: 6vw;
+   text-transform: uppercase;
+   font-family: 'Segoe UI Light';
+
+    letter-spacing: 2vw;
+    font-size: 1.3vw;
+    background: -webkit-linear-gradient(rgb(255,251,189), rgb(188,160,117));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-weight: bold;
+}
+.aboutus_container{
+  
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+
+    background-color: rgba(0, 35, 44, 0.877);
+
+  
+}
+.aboutusimages{
+    display: flex;
+    flex-direction: column;
+    flex: 1 2 auto;
+    flex-wrap: wrap;
+    margin: 1vw;
+    margin-right: 2vw;
+    padding-top: 3.5%;
+    margin-bottom: 5vw;
+}
+
+.imagerow{
+    flex-direction: row;
+    flex: 1 1 auto;
+ 
+
+}
+
+.img1{
+    max-width: 100%;
+    background-color: white;
+    border-radius: 5%;
+    border: 2px solid rgb(0, 0, 0);;
+}
+.img2,.img3{
+    align-items: center;
+    max-width: 49%;
+
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    border: 2px solid rgb(0, 0, 0);;
+}
+.aboutustext{
+    flex-wrap: wrap;
+    flex:1 2.7 auto;
+   padding-top: 4vw;
+   color: white;
+    font-size: 1.8vw;
+    font-family: 'Segoe UI Light';
+    letter-spacing: 0.4vw;
+    text-align: justify;
+    padding-right: 4vw;
+    margin-left: 2vw;
+   
+}
+.text-content{
+    padding-top: 3vw;
+}
+.title{
+    font-family: 'Friz Quadrata Std';
+    font-size: 4.8vw;
+  
+    letter-spacing: 1.5vw;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(rgb(255,251,189), rgb(188,160,117));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.room-area{
+
+    color: white;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.178);
+}
+
+.bg-roomarea{
+    background-color: rgb(0, 35, 44, 0.877);
+
+    height: 200vw;
+}
+.room-fade{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.247)
+}
+
+.room-category, .room-category-2, .room-category-3, .room-category-4, .room-category-5, 
+.room-info,.room-info-2,.room-info-3,.room-info-4,.room-info-5{
+
+    font-size: 20px;
+    text-align: center;
+    
+}
+.room-info{
+    margin-top:1%;
+    padding-left:10%;
+    padding-right:10%;
+    font-family: 'Candara Light';
+    color: white;
+}
+
+.room-info-2{
+    margin-top:1%;
+    padding-left:10%;
+    padding-right:10%;
+    font-family: 'Candara Light';
+    color: white;
+}
+.room-info-3{
+    margin-top:1%;
+    padding-left:10%;
+    padding-right:10%;
+    font-family: 'Candara Light';
+    color: white;
+}
+.room-info-4{
+    margin-top:1%;
+    padding-left:10%;
+    padding-right:10%;
+    font-family: 'Candara Light';
+    color: white;
+}
+
+.room-info-5{
+    margin-top:1%;
+    padding-left:10%;
+    padding-right:10%;
+    font-family: 'Candara Light';
+    color: white;
+}
+
+.room-category{
+    margin-top: 5%;
+    font-size: 50px;
+    font-family: 'Candara';
+    background: -webkit-linear-gradient(rgb(255,251,189), rgb(188,160,117));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.room-category-2{
+    margin-top: 2%;
+    font-size: 50px;
+    font-family: 'Candara';
+    background: -webkit-linear-gradient(rgb(255,251,189), rgb(188,160,117));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.room-category-3{
+    margin-top: 7%;
+    font-size: 50px;
+    font-family: 'Candara';
+    background: -webkit-linear-gradient(rgb(255,251,189), rgb(188,160,117));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.room-category-4{
+    margin-top: 3%;
+    font-size: 50px;
+    font-family: 'Candara';
+    background: -webkit-linear-gradient(rgb(255,251,189), rgb(188,160,117));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.room-category-5{
+    margin-top: 10%;
+    font-size: 50px;
+    font-family: 'Candara';
+    background: -webkit-linear-gradient(rgb(255,251,189), rgb(188,160,117));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.info-container, .info-container-2, .info-container-3,
+.info-container-4, .info-container-5{
+    background-color: rgb(0, 35, 44);
+    height: 50%;
+    width: 30%;
+    border-radius: 25px;
+    margin-top: 10%;
+
+    color: black;
+
+}
+.info-container{
+    float:right;
+    margin-right: 5%;
+}
+.info-container-2{
+    float:left;
+    margin-left: 5%;
+}
+
+.room1,.room2,.room3,.room4,.room5{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 19.629%;
+    border-top: 10px solid rgb(188,160,117);
+}
+.horizontal{
+    margin-top: 1vw;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 5px;
+    background-image: linear-gradient(to bottom right, rgb(255,251,189), rgb(188,160,117));
+}
+.room1{
+    background-image: url(img/classicupscaled.jpg);
+}
+
+.room2{
+    background-image: url(img/deluxedflipped.png);
+
+
+}
+
+.room3{
+    background-image: url(img/superiorupscaled.jpg);
+
+}
+
+.room4{
+    background-image: url(img/executiveeeeeeedited.png);
+
+}
+
+.room5{
+    background-image: url(img/topupscaled.jpg);
+    border-bottom: 10px solid rgb(188,160,117);
+}
+.border{
+
+    border-top: 10px solid rgb(255,251,189);
+    padding-top:4vw;
+    padding-bottom: 4vw;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.roomTitle{
+
+    max-width: 100%;
+
+    font-family: 'Friz Quadrata Std';
+    font-size: 10vw;
+    letter-spacing: 2.5vw;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: -1vw;
+    background: -webkit-linear-gradient(rgb(255,251,189), rgb(188,160,117));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    
+}
+
+.footer-area{
+    height: 15.5vw;
+    
+    background-color:rgb(0, 35, 44);
+    position:relative;
+}
+
+.footer-img{
+    margin-top: 6.2vw;
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    object-position: 0 5%;
+}
+.btnBookNow{
+    width: 40%;
+    margin-left: 30%;
+
+    height: 5vw;
+    border-radius: 30px;
+    font-family: 'Friz Quadrata Std';
+    font-size: 400%;
+    position: absolute;
+    z-index: 4;
+    margin-top: -3vw;
+    text-decoration: none;
+    border: none;
+    background-image: linear-gradient(to bottom right, rgb(255,251,189), rgb(188,160,117));
+    cursor: pointer;
+}
+.btnBookNow:hover{
+    background-image: linear-gradient(to bottom right, rgb(188,160,117), rgb(188,160,117));
+    
+}
+.btnBookNow .span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+
+.btnBookNow .span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btnBookNow:hover .span {
+    padding-right: 25px;
+  }
+  
+  .btnBookNow:hover .span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.header-area{
+    height: 40vh;
+}
+.fade-header{
+    height: 25vh;
+    padding-top: 20vh;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+.booking-title{
+    font-family: 'Friz Quadrata Std';
+    font-size: 7vw;
+    margin-left: 10vh;
+    letter-spacing: 1.5vw;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(rgb(255,251,189), rgb(188,160,117));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.booking-area{
+    background-color: rgb(0, 35, 44);
+}
+.booking-form{
+    
+    font-family: 'Segoe UI Light';
+    width: 75%;
+    margin:auto;
+    margin-top: 2vw;
+    padding-top: 5vh;
+    
+}
+.table-data{
+    width: 50%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    
+}
+.subtext{
+    color: white;
+    font-size: 1.8vw;
+    font-family: 'Candara';;
+    font-weight: lighter;
+   letter-spacing: 0.2vw;
+}
+
+.roomclass{
+    width: 71.5%;
+    height: 2vw;
+    margin-bottom: 1vw;
+    font-size: 1.2vw;
+    padding-left: 0.2vw;
+    text-decoration: none;
+    border: none;
+    padding-left: 0.4vw;
+    border-radius: 25px;
+}
+
+.roomNum{
+    width: 71.5%;
+    height: 2vw;
+    margin-bottom: 1vw;
+    font-size: 1.2vw;
+    padding-left: 0.2vw;
+    text-decoration: none;
+    border: none;
+    padding-left: 0.4vw;
+    border-radius: 25px;
+}
+.input{
+    width: 100%;
+    height: 2vw;
+    text-decoration: none;
+    border: none;
+    margin-bottom: 1.8vw;
+    font-size: 1.2vw;
+    padding-left: 0.4vw;
+    border-radius: 25px;
+}
+
+#roomNum, #checkIn,#downPayment,
+#contact,#guests, #roomPrice, #checkOut,#totalPrice{
+    width: 70%;
+}
+
+.btn{
+    
+
+    text-decoration: none;
+    border: none;
+    width:45%;
+    height: 2.5vw;
+    font-size: 1.6vw ;
+    background-image: linear-gradient(rgb(255,251,189), rgb(243,217,164), rgb(188,160,117));
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    font-family: 'Friz Quadrata Std';
+    letter-spacing: 0.5vw;
+}
+
+input[type="text"][disabled] {
+    color: white;
+ }

@@ -1,0 +1,144 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    background-image: url(img/wanshuinnsunsetedited.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+*{
+    
+    margin:0;
+    padding:0;
+ 
+}
+
+.admin-area{
+    background-color: rgba(0, 0, 0, 0.452);
+    color: white;
+    text-transform:uppercase;
+    font-weight: lighter;
+   
+}
+h1{
+    font-family: 'Friz Quadrata Std';
+    letter-spacing: 1vw;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(255,251,189), rgb(188,160,117));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.table_info{
+    table-layout: fixed;
+    font-size:0.8vw;
+    width: 100%;
+    font-family: 'Segoe UI Light';
+}
+th{
+    font-size: 1vw;
+ 
+    word-wrap: break-word;
+}
+
+table,td,th,tr{
+    border-collapse: collapse;
+   
+}
+
+
+
+
+.booking-form{
+    
+    font-family: 'Segoe UI Light';
+    width:40%;
+    margin-left:32%;
+    margin-right: auto;
+    margin-top: 2vw;
+    
+    table-layout: fixed;
+    
+}
+.table-data{
+    margin:auto;
+    padding: -1vw;
+}
+.subtext{
+    color: white;
+    font-size: 1vw;
+    font-family: 'Friz Quadrata Std';
+   font-weight: lighter;
+   letter-spacing: 0.2vw;
+   margin:auto;
+}
+
+.roomclass{
+    width: 60%;
+    height: 1.5vw;
+    text-decoration: none;
+    border: none;
+
+    font-size: 1.0vw;
+    padding-left: 0.4vw;
+    border-radius: 25px;
+    margin-bottom: 1vw;
+}
+.input{
+    width: 95%;
+
+    height: 1.5vw;
+    text-decoration: none;
+    border: none;
+
+    font-size: 1.0vw;
+    padding-left: 0.4vw;
+    border-radius: 25px;
+    margin-bottom: 1vw;
+}
+
+#roomNum, #checkIn,#downPayment,
+#contact,#guests, #roomPrice, #checkOut,#totalPrice{
+    width: 60%;
+}
+
+.btnAdd,.btnUpdate, .btnDelete{
+    text-decoration: none;
+    border: none;
+   
+    height: 2.2vw;
+    border-radius: 25px;
+
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    font-family: 'Friz Quadrata Std';
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+}
+.btnAdd{
+    background-image: linear-gradient( rgb(0, 243, 61), rgb(0, 88, 12));
+    width: 15vw;
+    display: block;
+    margin-right:auto;
+    margin-left:auto;
+}
+.btnUpdate{
+    background-image: linear-gradient( rgb(255,251,189), rgb(188,160,117));
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 15vw;
+}
+.btnDelete{
+    background-image: linear-gradient( rgb(243, 0, 0), rgb(88, 0, 0));
+    width: 15vw;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+   
+}
